@@ -30,5 +30,9 @@ dependencies {
     // 버전을 명시하지 않아야 org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion} 의 버전을 따라감
     // gradle 버전이 7 미만이면 complie, testCompile, 7 이상이면 implementation, testImplementation
     implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+    implementation('org.projectlombok:lombok')
+    implementation('com.h2database:h2')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
